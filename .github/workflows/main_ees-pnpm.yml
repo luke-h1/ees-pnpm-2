@@ -39,7 +39,7 @@ jobs:
           run_install: false
 
       - name: Install dependencies
-        run: pnpm i --no-frozen-lockfile
+        run: pnpm i
 
       - name: Build frontend 
         run: pnpm --filter=explore-education-statistics-frontend build

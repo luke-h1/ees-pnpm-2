@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 env:
   NODE_VERSION: 16.14.2
-  PNPM_VERSION: 7.25.1
+  PNPM_VERSION: 7.26.0
 
 jobs:
   build:

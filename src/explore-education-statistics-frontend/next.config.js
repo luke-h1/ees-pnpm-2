@@ -80,8 +80,6 @@ const nextConfig = {
       }
     }
 
-    config.resolve.symlinks = false;
-
     config.resolve.alias = {
       ...config.resolve.alias,
       './dist/cpexcel.js': false,
@@ -111,7 +109,7 @@ module.exports = flowRight(
         ]
       : [],
     {
-      resolveSymlinks: false,
+      resolveSymlinks: true,
     },
   ),
 )(nextConfig);

@@ -713,7 +713,7 @@ importers:
       case-sensitive-paths-webpack-plugin: 2.4.0
       eslint: 7.32.0
       eslint-webpack-plugin: 3.2.0_u2ubl3shblmc7225ne6wflnyua
-      explore-education-statistics-common: file:src/explore-education-statistics-common
+      explore-education-statistics-common: link:../explore-education-statistics-common
       fork-ts-checker-webpack-plugin: 6.5.2_6l6xeafqmt6evxhe2eps6iva4m
       identity-obj-proxy: 3.0.0
       jest: 26.6.3
@@ -731,9 +731,6 @@ importers:
       stylelint-webpack-plugin: 3.3.0_5uwrr36xd2wf4x5n6x3obm2gu4
       typescript: 4.4.3
       webpack-dev-server: 4.11.1_webpack@5.75.0
-    dependenciesMeta:
-      explore-education-statistics-common:
-        injected: true
 
 packages:
 
@@ -4427,7 +4424,7 @@ packages:
     dependencies:
       '@babel/core': 7.20.12
       postcss: 7.0.35
-      postcss-syntax: 0.36.2_postcss@7.0.35
+      postcss-syntax: 0.36.2_postcss@8.4.21
     transitivePeerDependencies:
       - supports-color
 
@@ -4439,7 +4436,7 @@ packages:
       postcss-syntax: '>=0.36.2'
     dependencies:
       postcss: 7.0.35
-      postcss-syntax: 0.36.2_postcss@7.0.35
+      postcss-syntax: 0.36.2_postcss@8.4.21
       remark: 13.0.0
       unist-util-find-all-after: 3.0.2
     transitivePeerDependencies:
@@ -13239,7 +13236,7 @@ packages:
     dependencies:
       htmlparser2: 3.10.1
       postcss: 7.0.35
-      postcss-syntax: 0.36.2_postcss@7.0.35
+      postcss-syntax: 0.36.2_postcss@8.4.21
 
   /postcss-image-set-function/4.0.7_postcss@8.4.21:
     resolution: {integrity: sha512-9T2r9rsvYzm5ndsBE8WgtrMlIT7VbtTfE7b3BQnudUqnBcBo7L758oc+o+pdj/dUV0l5wjwSdjeOH2DZtfv8qw==}
@@ -14007,7 +14004,7 @@ packages:
       svgo: 2.8.0
     dev: false
 
-  /postcss-syntax/0.36.2_postcss@7.0.35:
+  /postcss-syntax/0.36.2_postcss@8.4.21:
     resolution: {integrity: sha512-nBRg/i7E3SOHWxF3PpF5WnJM/jQ1YpY9000OaVXlAQj6Zp/kIqJxEDWIZ67tAd7NLuk7zqN4yqe9nc0oNAOs1w==}
     peerDependencies:
       postcss: '>=5.0.0'
@@ -14028,7 +14025,7 @@ packages:
       postcss-scss:
         optional: true
     dependencies:
-      postcss: 7.0.35
+      postcss: 8.4.21
 
   /postcss-unique-selectors/4.0.1:
     resolution: {integrity: sha512-+JanVaryLo9QwZjKrmJgkI4Fn8SBgRO6WXQBJi7KiAVPlmxikB5Jzc4EvXMT2H0/m0RjrVVm9rGNhZddm/8Spg==}
@@ -16188,7 +16185,7 @@ packages:
       postcss-sass: 0.4.4
       postcss-scss: 2.1.1
       postcss-selector-parser: 6.0.6
-      postcss-syntax: 0.36.2_postcss@7.0.35
+      postcss-syntax: 0.36.2_postcss@8.4.21
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
       slash: 3.0.0
@@ -17814,9 +17811,3 @@ packages:
 
   /zwitch/1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
-
-  file:src/explore-education-statistics-common:
-    resolution: {directory: src/explore-education-statistics-common, type: directory}
-    name: explore-education-statistics-common
-    version: 0.1.0
-    dev: true

@@ -83,8 +83,9 @@ const nextConfig = {
     config.resolve.alias = {
       ...config.resolve.alias,
       './dist/cpexcel.js': false,
-      react: path.resolve(__dirname, 'node_modules/react'),
-      formik: path.resolve(__dirname, 'node_modules/formik'),
+      // react: path.resolve(__dirname, 'node_modules/react'),
+      // formik: path.resolve(__dirname, 'node_modules/formik'),
+      // 'core-js': path.resolve(__dirname, 'node_modules/core-js'),
     };
 
     return config;

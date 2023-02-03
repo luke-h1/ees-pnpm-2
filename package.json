@@ -1,6 +1,7 @@
 {
   "name": "explore-education-statistics",
   "private": true,
+  "packageManager": "pnpm@7.26.0",
   "dependencies": {
     "husky": "^7.0.4",
     "lint-staged": "^10.4.0"
@@ -31,7 +32,7 @@
   },
   "engines": {
     "node": "16.14.2",
-    "pnpm": "^7"
+    "pnpm": "7.26.0"
   },
   "scripts": {
     "prepare": "husky install",

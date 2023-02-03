@@ -49,7 +49,7 @@ const nextConfig = {
         }),
       );
 
-      config.externals = [...config.externals, 'react', 'react-dom'];
+      config.externals = [...config.externals, 'react', 'react-dom', 'core-js'];
     }
 
     if (dev) {

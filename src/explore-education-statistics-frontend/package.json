@@ -15,7 +15,6 @@
     "express": "^4.17.1",
     "express-basic-auth": "^1.2.0",
     "formik": "^2.1.7",
-    "explore-education-statistics-common": "workspace:*",
     "govuk-frontend": "^3.11.0",
     "helmet": "^4.1.1",
     "immer": "^9.0.6",
@@ -38,6 +37,7 @@
     "yup": "^0.29.3"
   },
   "devDependencies": {
+    "explore-education-statistics-common": "workspace:*",
     "@babel/core": "^7.11.6",
     "@babel/polyfill": "^7.11.5",
     "@testing-library/dom": "^7.24.4",

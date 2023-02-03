@@ -111,7 +111,7 @@ module.exports = flowRight(
         ]
       : [],
     {
-      resolveSymlinks: true,
+      resolveSymlinks: false,
     },
   ),
 )(nextConfig);

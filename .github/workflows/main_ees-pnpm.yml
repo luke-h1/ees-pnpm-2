@@ -70,7 +70,7 @@ jobs:
         run: pnpm --filter=explore-education-statistics-frontend build
 
       - name: pnpm deploy frontend
-        run: pnpm --filter=explore-education-statistics-frontend deploy --prod public-frontend
+        run: pnpm --filter=explore-education-statistics-frontend deploy --prod --shamefully-hoist=true public-frontend
 
       - name: zip frontend
         run: cd public-frontend && zip -r -y public-frontend.zip *
